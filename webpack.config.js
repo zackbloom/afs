@@ -3,8 +3,8 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'worker.js'
+    path: __dirname,
+    filename: 'index.js'
   },
   module: {
     rules: [
